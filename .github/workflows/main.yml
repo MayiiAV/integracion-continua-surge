@@ -15,5 +15,6 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
 
+
       - name: Deploy to Surge
-        run: run: surge ./ mayerlin-devops-2026.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ cruel-net.surge.sh --token ${{ secrets.SURGE_TOKEN }}
